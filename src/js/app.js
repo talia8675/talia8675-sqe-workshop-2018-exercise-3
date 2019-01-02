@@ -9,7 +9,6 @@ $(document).ready(function () {
         let inputsToPars = $('#inputsPlaceholder').val();
         let parsedInputs = parseCode(inputsToPars);
         let strDiagram =itercode(parsedCode, parsedInputs);
-
         let diagram = flowchart.parse(strDiagram);
 
         //let p = document.getElementById('diagram');
